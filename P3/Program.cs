@@ -4,13 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using P3.SortingAlgorithms;
+
 namespace P3
 {
     class Program
     {
+        
+
         static void Main(string[] args)
         {
-            SortAlgo algorithms = new SortAlgo();
+            MergeSort merge = new MergeSort();
+
         }
     }
 }

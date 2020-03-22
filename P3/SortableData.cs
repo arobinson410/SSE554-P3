@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace P3
 {
-    class SortableData
+    public class SortableData
     {
+        public enum TimerType { ticks, seconds };
+
         const int ListSize = 100;
         public List<int> data;
 
