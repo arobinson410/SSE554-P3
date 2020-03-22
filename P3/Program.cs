@@ -10,6 +10,7 @@ namespace P3
     {
         static void Main(string[] args)
         {
+            SortAlgo algorithms = new SortAlgo();
         }
     }
 }
