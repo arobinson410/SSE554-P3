@@ -18,19 +18,11 @@ namespace P3
         /// <param name="sortedList"></param>
         List<int> SortNumbers(List<int> unsortedList);
 
-
         /// <summary>
-        /// Starts the sorting timer.
+        /// Asynchronous version of Number Sorting.
         /// </summary>
-        /// <param name="timerType"></param>
-        /// <param name="timer"></param>
-        void StartTimer(SortableData.TimerType timerType, Timer timer);
-
-        /// <summary>
-        /// Ends the sorting timer.
-        /// </summary>
-        /// <param name="timer"></param>
-        void EndTimer(Timer timer);
-
+        /// <param name="unsortedList"></param>
+        /// <returns></returns>
+        Task<List<int>> SortNumbersAsync(List<int> unsortedList);
     }
 }

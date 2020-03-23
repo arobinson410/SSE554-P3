@@ -1,4 +1,5 @@
 using System;
+using System.Diagnostics;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using P3.SortingAlgorithms;
 
@@ -14,15 +15,14 @@ namespace SortingAlgorithmTest
         {
             MergeSort mergeSort = new MergeSort();
             mergeSort.sortData.PrintData();
-            mergeSort.Run();
+            mergeSort.SortNumbers(mergeSort.sortData.data);
             mergeSort.sortData.PrintData();
-            Console.ReadLine();
         }
 
         [TestMethod]
         public void TestQuickSort()
         {
-
+   
         }
 
         [TestMethod]
